@@ -100,6 +100,11 @@ ids = range(0, 4)
 listMumbers = ['Ismail', 'Samir', 'Noraddin', 'Yassin']
 mergeToDict = dict(zip(ids, listMumbers))
 print(mergeToDict)
+print('===============================================================')
+# Find item in list using for loop
+print('Find item in list using for loop')
+ls_a = [d for d in ['Dell', 'lenovo', 'LG'] if len(d) == 2]
+print(ls_a)
 
 
 
